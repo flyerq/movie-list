@@ -21,7 +21,9 @@
 
 [应用宝链接](http://works.flyerq.com/portfolio/movie-list/movie-list_latest.apk "电影清单")
 
-[安装包下载链接(Android APK)](http://works.flyerq.com/portfolio/movie-list/movie-list_latest.apk "电影清单")
+[安装包下载链接(Android APK)](https://github.com/flyerq/movie-list/blob/master/build/movie-list_latest.apk?raw=true "电影清单")
+
+[备用下载链接](http://works.flyerq.com/portfolio/movie-list/movie-list_latest.apk "电影清单")
 
 ## APP演示截图
 
