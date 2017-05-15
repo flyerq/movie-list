@@ -17,4 +17,4 @@
 
 ## APP演示截图
 
-[Movie List](http://works.flyerq.com/portfolio/movie-list/demo.gif "电影清单")
+<img src="https://github.com/flyerq/movie-list/blob/master/demo.gif" alt="Demo" width="688" />
