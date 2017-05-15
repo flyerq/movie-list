@@ -15,7 +15,7 @@
 
 ## 兼容性与测试
 
-此项目基于**React Native**和**Expo**平台，具有跨平台性，同时兼容**iOS**与**Android**平台，但目前仅适配了平台，具有跨平台性，同时兼容**iOS**与**Android**平台，但目前仅适配了**Android**平台，并在**SAMSUNG S7 Edge**和**小米 4S**这两台**Android**设备上通过测试。
+此项目基于**React Native**和**Expo**平台，具有跨平台性，同时兼容**iOS**与**Android**平台，但目前仅适配了**Android**平台，并在**三星 S7 Edge**和**小米 4S**这两台**Android**设备上通过了测试。
 
 ## APP下载链接
 
