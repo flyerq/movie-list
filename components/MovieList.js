@@ -239,7 +239,6 @@ export default class MovieList extends React.Component {
 
   _getItemLayout = (data, index) => {
     const { rows } = this.state.layout;
-
     return {
       length: (height - 185) / rows,
       offset: (height - 185) / rows * index,
@@ -306,9 +305,11 @@ export default class MovieList extends React.Component {
             ListHeaderComponent={isFavoritesList ? undefined : this._renderHeader}
             ListFooterComponent={isFavoritesList ? undefined : this._renderFooter}
             initialNumToRender={cols * (rows + 1)}
-            maxToRenderPerBatch={cols * (rows + 1)}
-            removeClippedSubviews={false}
+            maxToRenderPerBatch={1}
+            // removeClippedSubviews={false}
             directionalLockEnabled={true}
+            showsHorizontalScrollIndicator={false}
+            showsVerticalScrollIndicator={false}
             keyboardDismissMode='on-drag'
             keyboardShouldPersistTaps='always'
             automaticallyAdjustContentInsets={false}

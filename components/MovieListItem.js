@@ -19,20 +19,23 @@ UIManager.setLayoutAnimationEnabledExperimental
 // 自定义布局动画
 const CustomLayoutAnimation = {
   duration: 200,
-  // create: {
-  //   type: LayoutAnimation.Types.spring,
-  //   property: LayoutAnimation.Properties.scaleXY,
-  //   springDamping: 0.7,
-  // },
-  // update: {
-  //   type: LayoutAnimation.Types.spring,
-  //   property: LayoutAnimation.Properties.scaleXY,
-  //   springDamping: 0.7,
-  // },
-  delete: {
+  create: {
     type: LayoutAnimation.Types.easeInEaseOut,
     property: LayoutAnimation.Properties.scaleXY,
+    // springDamping: 0.7,
   },
+  update: {
+    type: LayoutAnimation.Types.easeInEaseOut,
+    property: LayoutAnimation.Properties.scaleXY,
+    // springDamping: 0.7,
+  },
+  // 由于LayoutAnimation删除动画在当前版本的React Native上存在Bug(仅Android)
+  // 暂时无法达到正确的动画效果(取消收藏时缓动缩小列表项)，后期考虑使用Animated代替
+  // 相关issue：https://github.com/facebook/react-native/issues/11828
+  // delete: {
+  //   type: LayoutAnimation.Types.easeInEaseOut,
+  //   property: LayoutAnimation.Properties.scaleXY,
+  // },
 };
 
 const { width, height } = Dimensions.get('window');
@@ -52,7 +55,7 @@ export default class MovieListItem extends React.Component {
   }
 
   componentWillUnmount() {
-    // 当电影条目被卸载(取消收藏)时开启布局动画
+    // 当电影条目将被卸载(取消收藏)时开启布局动画
     LayoutAnimation.configureNext(CustomLayoutAnimation);
   }
 
