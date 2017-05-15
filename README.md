@@ -17,4 +17,4 @@
 
 ## APP演示截图
 
-<img src="https://github.com/flyerq/movie-list/blob/master/demo.gif" alt="Demo" width="688" />
+<img src="https://github.com/flyerq/movie-list/blob/master/demo.gif" alt="Demo" width="686" />
