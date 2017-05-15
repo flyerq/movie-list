@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "电影清单",
+    "description": "一个电影资讯类应用，可以将你喜欢的电影保存到收藏夹中。",
+    "slug": "movie-list",
+    "version": "1.0.0",
+    "sdkVersion": "16.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#e6e7e8",
+    "icon": "./assets/icons/app-icon.png",
+    "notification": {
+      "icon": "./assets/icons/app-icon.png",
+      "color": "#000000"
+    },
+    "loading": {
+      "hideExponentText": true,
+      "backgroundColor": "#3498db",
+      "backgroundImage": "./assets/images/splash-screen.png",
+      "icon": "about:blank",
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf"]
+    },
+    "android": {
+      "package": "com.flyerq.movielist",
+      "versionCode": 1
+    }
+  }
+}
