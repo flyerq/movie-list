@@ -1,3 +1,4 @@
+// 主色调
 const tintColor = '#3498db';
 
 export default {
