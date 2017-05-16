@@ -19,9 +19,9 @@
 
 ## APP下载链接
 
-> 此应用目前已在**Google Play**应用市场上线，如果你无法访问**Google Play**可以直接下载下面提供的APK安装包
+> 此应用目前已在**Google Play**应用商店上线，如果你无法访问**Google Play**也可以直接下载下面提供的APK安装包进行安装。
 
-<a href="https://play.google.com/store/apps/details?id=com.flyerq.movielist" target="_blank"><img src="https://github.com/flyerq/movie-list/blob/master/google-play-badge.png" alt="Google Play" height="48" /></a>
+<a href="https://play.google.com/store/apps/details?id=com.flyerq.movielist" target="_blank" title="Google Play应用商店"><img src="https://github.com/flyerq/movie-list/blob/master/google-play-badge.png" alt="Google Play" height="64" /></a>
 
 [安装包下载链接(Android APK)](https://github.com/flyerq/movie-list/blob/master/build/movie-list_latest.apk?raw=true "电影清单")
 
