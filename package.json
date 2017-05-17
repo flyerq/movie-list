@@ -3,6 +3,8 @@
   "description": "一个电影资讯类应用，可以将你喜欢的电影保存到收藏夹中。",
   "version": "1.0.0",
   "private": true,
+  "author": "flyer <flyer@flyerq.com>",
+  "repository": "https://github.com/flyerq/movie-list.git",
   "devDependencies": {
     "jest-expo": "^0.4.0",
     "react-native-scripts": "0.0.29",

@@ -19,9 +19,15 @@
 
 ## APP下载链接
 
-> 此应用目前已在**Google Play**应用商店上线，如果你无法访问**Google Play**也可以直接下载下面提供的APK安装包进行安装。
+> 此应用目前已在**Google Play**应用商店和**百度手机助手**及其合作渠道（**91助手**，**安卓市场**）上线，你可以从相应的应用商店进行安装，也可以直接下载下面提供的APK安装包进行安装。
 
 <a href="https://play.google.com/store/apps/details?id=com.flyerq.movielist" target="_blank" title="Google Play应用商店"><img src="https://github.com/flyerq/movie-list/blob/master/google-play-badge.png" alt="Google Play" height="64" /></a>
+
+[百度手机助手链接](http://shouji.baidu.com/software/11496249.html "百度手机助手")
+
+[91助手链接](http://apk.91.com/Soft/Android/com.flyerq.movielist.html "91助手")
+
+[安卓市场链接](http://apk.hiapk.com/appinfo/com.flyerq.movielist "安卓市场")
 
 [安装包下载链接(Android APK)](https://github.com/flyerq/movie-list/blob/master/build/movie-list_latest.apk?raw=true "电影清单")
 
