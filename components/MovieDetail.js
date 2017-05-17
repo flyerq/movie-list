@@ -17,6 +17,7 @@ import Colors from '../constants/Colors';
 import Rating from './Rating';
 import VideoPlayer from './VideoPlayer';
 import Favorite from './Favorite';
+import Toast from './Toast';
 
 const API_URL = 'https://api.douban.com/v2/movie//subject/';
 const DEFAULT_AVATAR = 'https://img3.doubanio.com/f/movie/63acc16ca6309ef191f0378faf793d1096a3e606/pics/movie/celebrity-default-large.png';
@@ -46,7 +47,7 @@ export default class MovieDetail extends React.Component {
       ]);
       if ( !response.ok ) {
         this.setState({ isLoading: false });
-        alert("Request Data Failure.");
+        Toast.show('服务器响应异常，请稍后再试...');
         return;
       }
       let responseJSON = await response.json();
@@ -68,7 +69,7 @@ export default class MovieDetail extends React.Component {
       }));
     } catch(error) {
       this.setState({ isLoading: false });
-      console.error(error);
+      Toast.show('网络请求出错了，请稍后再试...');
     }
   }
 

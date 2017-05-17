@@ -14,7 +14,6 @@ export default class LottieFavorite extends React.Component {
     super(props);
 
     const { size = 32 } = this.props;
-    alert(this.props.style)
 
     this.state = {
       isFavorited: false
